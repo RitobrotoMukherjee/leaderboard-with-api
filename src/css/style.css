@@ -58,10 +58,10 @@ section {
 }
 
 .loading {
-    display: none;
-    color: green;
-    font-size: 21px;
-    font-weight: 700;
+  display: none;
+  color: green;
+  font-size: 21px;
+  font-weight: 700;
 }
 
 .score-form {

@@ -60,3 +60,4 @@ Give a ⭐️ if you like this project!
 - Microverse: [View Site](https://www.microverse.org/)
 
 ## Code Reviewers
+- Mihndim Julius [Mihndim2020](https://github.com/Mihndim2020)
