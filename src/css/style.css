@@ -2,79 +2,122 @@
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 h1 {
-    font-size: 35px;
+  font-size: 55px;
 }
+
 h2 {
-    font-size: 25px;
+  font-size: 35px;
+}
+
+h1::after {
+  content: '';
+  height: 3px;
+  width: 150px;
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 32px;
+  display: block;
+  margin: 6px;
+}
+
+h2::after {
+  content: "";
+  height: 3px;
+  width: 35px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  display: block;
+  margin: 9px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+li:nth-child(even) {
+  background-color: #ccc;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
 }
 
 .score-body {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 450px);
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .score-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 15px;
 }
 
-.article-items  {
-    padding: 5px;
-    margin: 15px auto;
-    width: 95%;
+.article-items {
+  padding: 5px;
+  margin: 15px auto;
+  width: 95%;
 }
 
 .heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .description {
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 3px;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.score-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.score {
+  width: 99%;
+  padding: 3px;
 }
 
 .btn {
-    padding: 3px;
-    width: 65px;
-    height: 25px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-shadow: 1px 2px 3px;
+  cursor: pointer;
+  padding: 3px;
+  height: 35px;
+  width: 85px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px;
+}
+
+.btn:active {
+  box-shadow: none;
 }
 
 #add-score-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 90%;
-    padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 90%;
+  padding: 3px;
 }
 
 .form-control {
-    height: 12px;
-    width: 95%;
-    padding: 6px;
-    margin: 9px auto;
+  height: 12px;
+  width: 95%;
+  padding: 6px;
+  margin: 9px auto;
 }
-
-
-
