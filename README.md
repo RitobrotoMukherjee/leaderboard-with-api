@@ -2,61 +2,53 @@
 
 # Project Name
 
-> Description the project.
+> Leader borad project using webpack and ES6 modular structure. This project is just a HTML wirefram. Data of the project gets saved in ```API``` and shows the updated list of leaderborad from the ```API```
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- JavaScript
+- Webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](#)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- **NodeJs, npm needs to be installed in system**
+- For local project set up, run ``` git clone https://github.com/RitobrotoMukherjee/leaderboard-with-api.git ```
 
+## Install Linters
 
-To get a local copy up and running follow these simple example steps.
+- Run ``` npm install ```
 
-### Prerequisites
+## Buid Project
 
-### Setup
+- Run ``` npm run build ```
 
-### Install
+## Serve Project
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Run ``` npm run serve ```
 
 ## Authors
 
-👤 **Author1**
+👤 **Ritobroto Mukherjee**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Portfolio: [@Rito](https://ritobrotomukherjee.github.io/Work-Portfolio/)
+- GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
+- Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
+- LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+- Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,10 +56,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse: [View Site](https://www.microverse.org/)
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+## Code Reviewers
