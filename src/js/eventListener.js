@@ -1,4 +1,5 @@
 import CallApi  from './api.js';
+import ui from './ui.js';
 
 const addScoreForm = document.querySelector('#add-score-form');
 const refereshButton = document.getElementById('referesh-button');
@@ -16,8 +17,14 @@ const submitScore = (ev) => {
   });
 }
 
-const getScores = (ev) => {
-  console.log(ev);
+const getScores = () => {
+  const api = new CallApi();
+  const loadingDiv = document.getElementById('loading-div');
+  loadingDiv.style = 'display:block;';
+  api.getScore()
+  .then(data => ui(data.result))
+  .catch(err => console.log(err))
+  .finally(() => loadingDiv.style = 'display:none;');
 }
 
 export default () => {

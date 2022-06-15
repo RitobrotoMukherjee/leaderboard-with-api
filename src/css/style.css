@@ -57,6 +57,13 @@ section {
   flex-wrap: wrap;
 }
 
+.loading {
+    display: none;
+    color: green;
+    font-size: 21px;
+    font-weight: 700;
+}
+
 .score-form {
   display: flex;
   flex-direction: column;

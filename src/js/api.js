@@ -11,5 +11,10 @@ export default class {
         const data = await fetch(this.config.url, this.config.addScore);
         return await data.json();
     }
+
+    async getScore() {
+        const data = await fetch(this.config.url, this.config.getScore);
+        return await data.json();
+    }
 }
 
