@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Leader borad project using webpack and ES6 modular structure. This project is just a HTML wirefram. Data of the project gets saved in ```API``` and shows the updated list of leaderborad from the ```API```
+> Leader borad project using webpack and ES6 modular structure. This project is just a HTML wirefram. Data of the project gets saved in ```API``` and shows the updated list of leaderborad from the ```API```.
+**Project developed using ```gitflow``` instead of ```GitHub flow```
 
 
 ## Built With

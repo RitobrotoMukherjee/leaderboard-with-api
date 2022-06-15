@@ -11,7 +11,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            title: 'Leader Board',
+            template: path.resolve(__dirname, 'src', 'index.html'),
         }),
     ],
     module: {
