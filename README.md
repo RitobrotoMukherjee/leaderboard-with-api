@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](#)
+[Live Demo Link](https://ritobrotomukherjee.github.io/leaderboard-with-api/dist/)
 
 
 ## Getting Started
