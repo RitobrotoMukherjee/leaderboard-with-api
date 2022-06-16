@@ -3,12 +3,21 @@ import ui from './ui.js';
 
 const addScoreForm = document.querySelector('#add-score-form');
 const refereshButton = document.getElementById('referesh-button');
+const snackBar = document.getElementById('snackbar');
 
 const submitScore = (ev) => {
   ev.preventDefault();
   const api = new CallApi();
   const formInputs = Object.fromEntries(new FormData(addScoreForm).entries());
-  api.addScore(formInputs).then((data) => data)
+  const snackBarClasses = snackBar.classList;
+  api.addScore(formInputs)
+    .then((data) => {
+      snackBar.innerText = data.result;
+      snackBarClasses.add('show');
+      setTimeout(() => {
+        snackBarClasses.remove('show');
+      }, 3000);
+    })
     .catch((err) => err)
     .finally(() => {
       addScoreForm.reset();

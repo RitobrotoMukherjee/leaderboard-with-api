@@ -11,8 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/RitobrotoMukherjee/leaderboard-with-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "leaderboard",
+    "ES6",
+    "JavaScript",
+    "Singleton",
+    "API",
+    "OOP"
+  ],
+  "author": "www.linkedin.com/in/ritobroto-m3",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RitobrotoMukherjee/leaderboard-with-api/issues"
