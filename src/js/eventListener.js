@@ -29,7 +29,14 @@ const getScores = () => {
   const loadingDiv = document.getElementById('loading-div');
   loadingDiv.style = 'display:block;';
   api.getScore()
-    .then((data) => ui(data.result))
+    .then((data) => {
+      ui(data.result
+        .map((item) => {
+          item.score = Number.isNaN(+item.score) ? 0 : item.score;
+          return item;
+        })
+        .sort((a, b) => a.score - b.score));
+    })
     .catch((err) => err)
     .finally(() => {
       loadingDiv.style = 'display:none;';
